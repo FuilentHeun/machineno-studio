@@ -1,0 +1,179 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/home.png">
+    <title>
+        machineno
+    </title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <a href="#" onclick="goHome()">
+                <img src="images/home.png" class="topbar_logo">
+            </a>
+        </div>
+
+        <div class="topbar">
+            <a class="topbar_content" style="margin-left:3%"></a>
+            <a href="#" onclick="goProducts()" class="topbar_content">
+                Products
+            </a>
+            <a href="#" onclick="goStore()" class="topbar_content">
+                Store
+            </a>
+            <a href="#" onclick="goNews()" class="topbar_content">
+                News
+            </a>
+            <a href="#" onclick="goCreators()" class="topbar_content">
+                Creators
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function goHome() {
+            home.style.display="block";
+            creators.style.display="none";
+            products.style.display="none";
+            store.style.display="none";
+            news.style.display="none";
+        }
+        function goProducts() {
+            products.style.display="block";
+            home.style.display="none";
+            store.style.display="none";
+            news.style.display="none";
+            creators.style.display="none";
+        }
+        function goStore() {
+            store.style.display="block";
+            home.style.display="none";
+            products.style.display="none";
+            news.style.display="none";
+            creators.style.display="none";
+        }
+        function goNews() {
+            news.style.display="block";
+            home.style.display="none";
+            products.style.display="none";
+            store.style.display="none";
+            creators.style.display="none";
+        }
+        function goCreators() {
+            creators.style.display="block";
+            home.style.display="none";
+            products.style.display="none";
+            store.style.display="none";
+            news.style.display="none";
+        }
+    </script>
+
+    <div id="home">
+        <div>
+            <img src="images/machineno_nobg.png" alt="Description" class="coverimage">
+        </div>
+
+        <div>
+            <a class="content">
+                machineno° studio focusing on the
+                Game Design,
+                Storytelling
+                and Soundtracks.
+                We are making products that deeply fit its audience, creating impreesive game story and innovative game design.
+                <br><br>
+                "Subjectively Think, Subjectively Make."
+                <br><br>
+            </a>
+        </div>
+
+        <div>
+            <h1>
+                PRODUCTS
+            </h1>
+            <a href="./toyam.html" target="_blank">
+                <img src="images/MBYAM.png" class="toyam">
+            </a>
+            <a class="content">
+                "MOMENTS Between YOU and ME"
+            </a>
+            <br>
+            <a href="#" onclick="goProducts()" class="content">
+                More
+            </a>
+        </div>
+
+        <div>
+            <h1>
+                STORE
+            </h1>
+            <a class="content">
+                Comming Soon.
+            </a>
+        </div>
+
+        <div>
+            <h1>
+                NEWS
+            </h1>
+            <a class="content">
+                MOMENTS Between YOU and ME is soon release.
+            </a>
+        </div>
+
+        <div>
+            <h1>
+                ________________________
+            </h1>
+        </div>
+    </div>
+
+    <div id="creators" style="display:none;">
+        <div>
+            <h1><br><br>
+                CREATORS
+            </h1>
+        </div>
+
+        <div>
+            <a href="https://x.com/Moment_Kanoz" target="_blank">
+                <img src="images/profilepg.JPG" class="creators_pics">
+            </a>
+            <a class="content">
+                "Moment | Heun"
+            </a>
+            <h2 class="content">
+                Developer<br>
+                Soundtrack Composer<br>
+                Story Design
+            </h2>
+        </div>
+
+        <!-- <div>
+            <a>
+                <img src="images/profilepg.JPG" class="creators_pics">
+            </a> 
+        </div> -->
+    </div>
+
+    <div id="products" style="display:none;">
+        <h1><br><br>
+            PRODUCTS
+        </h1>
+    </div>
+
+    <div id="store" style="display:none;">
+        <h1><br><br>
+            STORE
+        </h1>
+    </div>
+
+    <div id="news" style="display:none;">
+        <h1><br><br>
+            NEWS
+        </h1>
+    </div>
+
+</body>
+</html>

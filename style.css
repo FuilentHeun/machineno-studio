@@ -1,0 +1,75 @@
+body {
+    background-image: url("images/white_bg.avif");
+    background-size: cover;
+}
+@font-face {
+    font-family: "generalfont";
+    src: url("fonts/textfont02.ttf") format("truetype");
+}
+.topbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(105, 105, 105);
+    z-index: 1000;
+}
+.topbar_content {
+    font-family: "generalfont";
+    font-size: 30px;
+    color: white;
+    margin-left: 7%;
+    position: relative;
+    top: 25%;
+    left: 20px;
+    text-decoration: none;
+}
+.topbar_logo {
+    display: block;
+    position: fixed;
+    z-index: 2000;
+    transform-origin: left top;
+    transform: scale(0.6);
+    
+}
+.coverimage {
+    display: block;
+    width: 100%;
+} 
+.content {
+    display: block;
+    font-family: "generalfont";
+    font-size: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+h1 {
+    font-family: "generalfont";
+    font-style: bold;
+    font-size: 80px;
+    text-align: center;
+}
+.toyam {
+    display: block;
+    text-decoration: none;
+    width: 80%;
+    margin:0 auto;
+    margin-top: 5%;
+    border: solid black 1px;
+}
+.toyam_cover {
+    display: block;
+    width: 100%;
+}
+.creators_pics {
+    margin-left: 50%;
+    margin-top: 3%;
+    transform: translateX(-50%);
+    border: solid black 1px;
+    width: 400px;
+    height: 400px;
+}

@@ -2,6 +2,10 @@ body {
     background-image: url("images/white_bg.avif");
     background-size: cover;
 }
+.mbyambody {
+    background-image: url();
+    background-size: cover;
+}
 @font-face {
     font-family: "generalfont";
     src: url("fonts/textfont02.ttf") format("truetype");
@@ -31,7 +35,7 @@ body {
     z-index: 2000;
     transform-origin: left top;
     transform: scale(0.6);
-    
+    left: 2%;
 }
 .coverimage {
     display: block;
@@ -44,6 +48,7 @@ body {
     max-width: 60%;
     margin: 0 auto;
     text-align: center;
+    
     line-height: 1.5;
     word-wrap: break-word;
 }
@@ -53,12 +58,9 @@ h1 {
     font-size: 80px;
     text-align: center;
 }
-.toyam {
-    display: block;
-    text-decoration: none;
+.pics {
     width: 80%;
-    margin:0 auto;
-    margin-top: 5%;
+    margin: 5% auto 0 auto;
     border: solid black 1px;
 }
 .toyam_cover {
@@ -66,10 +68,12 @@ h1 {
     width: 100%;
 }
 .creators_pics {
-    margin-left: 50%;
-    margin-top: 3%;
-    transform: translateX(-50%);
+    margin:5% auto 2% auto;
     border: solid black 1px;
-    width: 400px;
-    height: 400px;
+    width: 60%;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
